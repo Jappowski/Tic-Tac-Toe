@@ -7,49 +7,31 @@
         mc:Ignorable="d"
         Title="Tic Tac Toe!" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+        <Button x:Name="A1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,14,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="A2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,14,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="A3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,14,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="A4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,14,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="A5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,14,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="B1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,94,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="B2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,94,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="B3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,94,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="B4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,94,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="B5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,94,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="C1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,174,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="C2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,174,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="C3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,174,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="C4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,174,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="C5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,174,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="D1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,254,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="D2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,254,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="D3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,254,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="D4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,254,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="D5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,254,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="E1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,334,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="E2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,334,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="E3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,334,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="E4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,334,0,0" Height="75" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="E5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,334,0,0" Height="75" FontSize="48" Click="Button_Click"/>
 
-        <Button x:Name="ButtonA0" Grid.Column="0" Grid.Row="0" />
-        <Button x:Name="ButtonA1" Grid.Column="1" Grid.Row="0" />
-        <Button x:Name="ButtonA2" Grid.Column="2" Grid.Row="0" />
-        <Button x:Name="ButtonA3" Grid.Column="3" Grid.Row="0" />
-        <Button x:Name="ButtonA4" Grid.Column="4" Grid.Row="0" />
-
-        <Button x:Name="ButtonB0" Grid.Column="0" Grid.Row="1" />
-        <Button x:Name="ButtonB1" Grid.Column="1" Grid.Row="1" />
-        <Button x:Name="ButtonB2" Grid.Column="2" Grid.Row="1" />
-        <Button x:Name="ButtonB3" Grid.Column="3" Grid.Row="1" />
-        <Button x:Name="ButtonB4" Grid.Column="4" Grid.Row="1" />
-
-        <Button x:Name="ButtonC0" Grid.Column="0" Grid.Row="2" />
-        <Button x:Name="ButtonC1" Grid.Column="1" Grid.Row="2" />
-        <Button x:Name="ButtonC2" Grid.Column="2" Grid.Row="2" />
-        <Button x:Name="ButtonC3" Grid.Column="3" Grid.Row="2" />
-        <Button x:Name="ButtonC4" Grid.Column="4" Grid.Row="2" />
-
-        <Button x:Name="ButtonD0" Grid.Column="0" Grid.Row="3" />
-        <Button x:Name="ButtonD1" Grid.Column="1" Grid.Row="3" />
-        <Button x:Name="ButtonD2" Grid.Column="2" Grid.Row="3" />
-        <Button x:Name="ButtonD3" Grid.Column="3" Grid.Row="3" />
-        <Button x:Name="ButtonD4" Grid.Column="4" Grid.Row="3" />
-
-        <Button x:Name="ButtonE0" Grid.Column="0" Grid.Row="4" />
-        <Button x:Name="ButtonE1" Grid.Column="1" Grid.Row="4" />
-        <Button x:Name="ButtonE2" Grid.Column="2" Grid.Row="4" />
-        <Button x:Name="ButtonE3" Grid.Column="3" Grid.Row="4" />
-        <Button x:Name="ButtonE4" Grid.Column="4" Grid.Row="4" />
     </Grid>
 </Window>
