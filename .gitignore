@@ -1,0 +1,5 @@
+
+*.lock
+TicTacToe/.vs/WpfApp3/v15/Server/sqlite3/storage.ide
+TicTacToe/.vs/WpfApp3/v15/Server/sqlite3/storage.ide-shm
+TicTacToe/.vs/WpfApp3/v15/Server/sqlite3/storage.ide-wal
