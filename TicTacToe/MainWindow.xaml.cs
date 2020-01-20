@@ -83,16 +83,16 @@ namespace WpfApp3
                         winner = "X";
 
                     MessageBox.Show(winner + " has won the game!");
-                    buttonDisabled();
+                    ButtonDisabled();
                 }
                 else if (!isWiner && count == 25)
                 {
                     MessageBox.Show("DRAW!");
-                    buttonDisabled();
+                    ButtonDisabled();
                 }
             }
         }
-        void buttonDisabled()
+        void ButtonDisabled()
         {
             A1.IsEnabled = false;
             A2.IsEnabled = false;
