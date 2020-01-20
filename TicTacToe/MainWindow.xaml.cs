@@ -86,7 +86,7 @@ namespace WpfApp3
                     else
                         winner = "X";
 
-                    MessageBox.Show(winner + " win a game!");
+                    MessageBox.Show(winner + " has won the game!");
                 }
                 else if (!isWiner && count == 25)
                     MessageBox.Show("DRAW!");
