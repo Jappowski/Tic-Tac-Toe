@@ -62,3 +62,5 @@ C:\Users\Kamil\Documents\GitHub\Tic-Tac-Toe\TicTacToe\obj\Debug\WpfApp3.pdb
 C:\Users\Konrad\Documents\GitHub\Tic-Tac-Toe\TicTacToe\bin\Debug\ClassLibrary.dll
 C:\Users\Konrad\Documents\GitHub\Tic-Tac-Toe\TicTacToe\bin\Debug\ClassLibrary.pdb
 C:\Users\Konrad\Documents\GitHub\Tic-Tac-Toe\TicTacToe\obj\Debug\WpfApp3.csproj.CopyComplete
+C:\Users\Kamil\Documents\GitHub\Tic-Tac-Toe\TicTacToe\bin\Debug\ClassLibrary.dll
+C:\Users\Kamil\Documents\GitHub\Tic-Tac-Toe\TicTacToe\obj\Debug\WpfApp3.csproj.CopyComplete
