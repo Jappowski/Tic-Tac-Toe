@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Maslo\Documents\GitHub\Tic-Tac-Toe\TicTacToe\obj\Debug\
+=======
+C:\Users\Kamil\Documents\GitHub\Tic-Tac-Toe\TicTacToe\obj\Debug\
+>>>>>>> d1376df587b58094311d030fd84d4841989a4029
 WpfApp3
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Maslo\Documents\GitHub\Tic-Tac-Toe\TicTacToe\App.xaml
+=======
+C:\Users\Kamil\Documents\GitHub\Tic-Tac-Toe\TicTacToe\App.xaml
+>>>>>>> d1376df587b58094311d030fd84d4841989a4029
 11151548125
 
 5-2017746502
