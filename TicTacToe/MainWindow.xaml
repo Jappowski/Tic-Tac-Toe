@@ -43,7 +43,7 @@
             </Grid>
                 
             <Grid Margin="578.514,198,10,206" Grid.Column="1">
-                <Button x:Name="Restart" Content="Zagraj ponownie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
+                <Button x:Name="Restart" Content="Play again" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
             </Grid>
 
 

@@ -26,17 +26,16 @@ namespace WpfApp3
             {
                 button.Content = "X";
                 button.IsEnabled = false;
-                WhosTurn();
             }
             else
             {
                 button.Content = "O";
                 button.IsEnabled = false;
-                WhosTurn();
             }
             turn = !turn;
             count++;
             IsWin();
+            WhosTurn();
 
 
             void IsWin()
@@ -113,11 +112,15 @@ namespace WpfApp3
 
        void WhosTurn()
         {
+            if(grid1.IsEnabled)
+            { 
             if (turn)
-                tekst.Content = "O's Turn!";
-            else
                 tekst.Content = "X's Turn!";
-             
+            else
+                tekst.Content = "O's Turn!";
+            }
+        else
+        tekst.Content = "Game ended";
         }
                     
         
