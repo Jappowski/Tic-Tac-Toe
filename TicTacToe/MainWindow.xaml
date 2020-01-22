@@ -39,10 +39,14 @@
                 <Button x:Name="E3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
                 <Button x:Name="E4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
                 <Button x:Name="E5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Label x:Name="tekst" Content="X's Turn!" HorizontalAlignment="Left" Height="43" Margin="-142,177,0,0" Width="114" FontSize="22" FontWeight="Bold" VerticalAlignment="Top" />
             </Grid>
+                
             <Grid Margin="578.514,198,10,206" Grid.Column="1">
                 <Button x:Name="Restart" Content="Zagraj ponownie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
             </Grid>
+
+
         </Grid>
 
     </Viewbox>

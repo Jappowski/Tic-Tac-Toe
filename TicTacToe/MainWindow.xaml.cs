@@ -26,11 +26,13 @@ namespace WpfApp3
             {
                 button.Content = "X";
                 button.IsEnabled = false;
+                WhosTurn();
             }
             else
             {
                 button.Content = "O";
                 button.IsEnabled = false;
+                WhosTurn();
             }
             turn = !turn;
             count++;
@@ -108,5 +110,16 @@ namespace WpfApp3
             System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
             Application.Current.Shutdown();
         }
+
+       void WhosTurn()
+        {
+            if (turn)
+                tekst.Content = "O's Turn!";
+            else
+                tekst.Content = "X's Turn!";
+             
+        }
+                    
+        
     }
 }
