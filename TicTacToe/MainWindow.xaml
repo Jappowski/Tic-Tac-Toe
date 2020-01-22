@@ -33,6 +33,7 @@
             <Button x:Name="E3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
             <Button x:Name="E4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
             <Button x:Name="E5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+            <Button x:Name="Restart" Content="Zagraj ponownie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="622,193,0,0" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
         </Grid>
     </Viewbox>
 </Window>
