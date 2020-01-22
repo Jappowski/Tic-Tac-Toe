@@ -129,9 +129,8 @@ namespace WpfApp3
 
         private void Reset_Click(object sender, RoutedEventArgs e)
         {
-
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
         }
     }
-
-
 }
