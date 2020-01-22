@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3", "WpfApp3.csproj", "{BCED45C6-C68A-4C8F-BFCB-FAFA6561A2EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tic Tac Toe.test", "..\tic Tac Toe.test\tic Tac Toe.test.csproj", "{4D3A8D38-4235-4E56-BE81-739B6F682C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticTacToe.test", "..\tic Tac Toe.test\ticTacToe.test.csproj", "{4D3A8D38-4235-4E56-BE81-739B6F682C0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary.csproj", "{0854BCE3-0C57-4825-9A6A-0A7D43D438F5}"
 EndProject
