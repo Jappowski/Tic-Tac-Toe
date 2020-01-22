@@ -126,6 +126,11 @@ namespace WpfApp3
 
             }
         }
+
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 
