@@ -7,33 +7,43 @@
         mc:Ignorable="d"
         Title="Tic Tac Toe!" Height="600" Width="900" Background="LightGoldenrodYellow">
     <Viewbox Margin="0,0,-0,-0">
-        <Grid Width="782" Height="440" RenderTransformOrigin="0.496,0.552" Background="LightGoldenrodYellow">
-            <Button x:Name="A1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,14,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="A2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,14,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="A3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,14,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="A4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,14,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="A5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,14,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="B1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,94,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="B2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,94,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="B3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,94,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="B4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,94,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="B5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,94,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="C1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,174,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="C2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,174,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="C3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,174,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="C4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,174,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="C5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,174,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="D1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,254,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="D2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,254,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="D3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,254,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="D4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,254,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="D5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,254,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="E1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="E2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="E3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="354,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="E4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="434,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="E5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="514,334,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
-            <Button x:Name="Restart" Content="Zagraj ponownie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="622,193,0,0" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
+        <Grid x:Name="grid" RenderTransformOrigin="0.496,0.552" Background="LightGoldenrodYellow" Margin="55,55,55,55">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="730*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="grid1" Margin="162.514,14,172,9" Grid.Column="1">
+
+                <Button x:Name="A1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="A2"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,0,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="A3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,0,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="A4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,0,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="A5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,0,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="B1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,80,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="B2"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,80,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="B3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,80,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="B4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,80,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="B5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,80,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="C1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,160,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="C2"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,160,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="C3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,160,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="C4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,160,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="C5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,160,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="D1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,240,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="D2"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,240,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="D3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,240,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="D4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,240,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="D5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,240,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="E1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="E2"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="E3"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="160,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="E4"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="240,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+                <Button x:Name="E5"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,320,0,0" Height="75" FontSize="48" Click="Button_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial"/>
+            </Grid>
+            <Grid Margin="578.514,198,10,206" Grid.Column="1">
+                <Button x:Name="Restart" Content="Zagraj ponownie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Click="Reset_Click" Background="DarkRed" BorderBrush="Black" FontFamily="Arial" Foreground="NavajoWhite"/>
+            </Grid>
         </Grid>
+
     </Viewbox>
 </Window>
