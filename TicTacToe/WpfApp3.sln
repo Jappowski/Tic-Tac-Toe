@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3", "WpfApp3.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticTacToe.test", "..\tic Tac Toe.test\ticTacToe.test.csproj", "{4D3A8D38-4235-4E56-BE81-739B6F682C0F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "..\Setup2\Setup2.vdproj", "{ABCD922E-BB2C-4845-A894-A274CD6AE04A}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TicTacToe", "..\Setup2\Setup2.vdproj", "{ABCD922E-BB2C-4845-A894-A274CD6AE04A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1.csproj", "{1BA72FD1-6F67-405D-8C51-F9227DB017B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{4D3A8D38-4235-4E56-BE81-739B6F682C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ABCD922E-BB2C-4845-A894-A274CD6AE04A}.Debug|Any CPU.ActiveCfg = Debug
 		{ABCD922E-BB2C-4845-A894-A274CD6AE04A}.Release|Any CPU.ActiveCfg = Release
+		{1BA72FD1-6F67-405D-8C51-F9227DB017B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA72FD1-6F67-405D-8C51-F9227DB017B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA72FD1-6F67-405D-8C51-F9227DB017B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA72FD1-6F67-405D-8C51-F9227DB017B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
